@@ -1,0 +1,38 @@
+<form action="/api/sessions/register" method="post">
+    <div>
+        <div>
+            <label for="first_name">First name:</label>
+            <br />
+            <input type="text" id="first_name" name="first_name" placeholder="juan" required />
+        </div>
+        <div>
+            <label for="last_name">Last name:</label>
+            <br />
+            <input type="text" id="last_name" name="last_name" placeholder="lopez" required />
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <br />
+            <input type="email" id="email" name="email" placeholder="example@mail.com" required />
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <br />
+            <input type="password" id="password" name="password" placeholder="12345" required />
+        </div>
+         <div>
+            <label for="age">Age</label>
+            <br />
+            <input type="text" id="age" name="age" placeholder="18" required />
+        </div>
+        <div>
+            <label for="role">Role</label>
+            <br />
+            <input type="role" id="role" name="role" placeholder="user" required />
+        </div>
+        <br />
+        <button type="submit">Registrar</button>
+    </div>
+</form>
+<br />
+¿Ya tienes cuenta? <a href="/login">Iniciar sesión</a>

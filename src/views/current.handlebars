@@ -1,0 +1,15 @@
+<div>
+    <div>
+        <h1>{{title}}</h1>
+    </div>
+    <div>
+        <p>Nombre: {{user.first_name}} {{user.last_name}} </p>
+        <p>Email: {{user.email}} </p>
+        <form action="/api/sessions/logout" method="post">
+            <button class="btn-salir" type="submit">Salir</button>
+        </form>
+    </div>
+</div>
+
+
+

@@ -1,0 +1,53 @@
+<div class="container-login-ppal">
+    <div class="container-form-login">
+        <h1 style="display:flex ; justify-content:center ">{{title}}</h1>
+        <h2 class="subtitulos">Inicia sesion en tu cuenta</h2>
+        <div class="container-form">
+            <form action="/api/sessions/login" method="post">
+            <div>
+                <div>
+                    <label for="email">Email</label>
+                    <br />
+                    <input type="email" id="email" name="email" placeholder="example@mail.com" required />
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <br />
+                    <input type="password" id="password" name="password" placeholder="12345" required />
+                </div>
+                <div class="div-btn">
+                    <button class="btn-ingresar" type="submit">Ingresar</button>
+                </div>
+                
+            </div>
+        </form>
+        </div>
+        
+        <div class="container-register">
+            <div class="container-btn-register">
+                <p class="p-login">
+                ¿No tienes una cuenta? 
+                <a href="/register" class="text-blue-600 hover:underline font-semibold">Regístrate</a>
+                </p>
+            </div>
+            <div class="container-btn-login">
+                <a class="btn-google" href="/api/sessions/auth/google">
+                    <img class="img-google" src="https://www.svgrepo.com/show/303108/google-icon-logo.svg" alt="Google Logo" />
+                    Ingresar con Google
+                </a>
+            </div>
+            
+            <div class="container-btn-login">
+                <p class="p-login">
+                    ¿Olvidaste tu contraseña? 
+                    <a href="/recupero" class="text-blue-600 hover:underline font-semibold">Recupérala aquí</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container-menu-ppal">
+        <h2>Lo que necesitas saber para tu declaracion de renta este 2025</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid magnam recusandae architecto aliquam nesciunt, inventore ducimus, nihil obcaecati consequuntur tempora sed dolor dolorum maxime nam a assumenda nisi porro possimus.</p>
+    </div>
+</div>
+
