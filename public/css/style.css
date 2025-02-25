@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monomakh&family=Outfit:wght@100..900&display=swap');
 
 :root {
   --text: #333333;
@@ -482,4 +483,9 @@ div input {
   width: 1000px;
   display: flex;
   justify-content: space-around;
+}
+
+.titles{
+  font-size: 38px;
+  font-family: "Monomakh", serif;
 }

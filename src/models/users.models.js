@@ -3,7 +3,7 @@ import paginate from "mongoose-paginate-v2";
 
 const { Schema, model } = mongoose;
 
-const userSchema = new Schema({
+const userModel = new Schema({
   first_name: {
     type: String,
     required: true,
@@ -35,6 +35,6 @@ const userSchema = new Schema({
   },
 });
 
-userSchema.plugin(paginate);
+userModel.plugin(paginate);
 
-export default model("User", userSchema);
+export default model("User", userModel);
